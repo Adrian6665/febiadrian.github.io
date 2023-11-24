@@ -1,0 +1,69 @@
+.jumbotron {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background-image: url("img/back2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: #eaeaea;
+}
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+.jumbotron img {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+#skill {
+  background-image: url("img/back3.jpg");
+  padding-bottom: 3rem;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #eaeaea;
+}
+#project .card {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+#contact {
+  background-image: url("img/back1.jpg");
+  padding-bottom: 5rem;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #eaeaea;
+}
+section {
+  padding-top: 7rem;
+}
+a {
+  font-family: "Times New Roman";
+}
+
+#about .col-md-5 {
+  opacity: 0;
+  transition: 0.5s;
+}
+#about .col-md-5.open {
+  opacity: 1;
+}
+.pkiri,
+.pkanan {
+  opacity: 0;
+  transform: translate(-50px, 0);
+  transition: 1s;
+}
+.pkanan {
+  transform: translate(50px, 0);
+}
+.pkiri.popen,
+.pkanan.popen {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#skill .card {
+  opacity: 0;
+  transform: translate(50px, 0);
+  transition: 0.5s;
+}
+#skill .card.open {
+  opacity: 1;
+  transform: translate(0, 0);
+}
